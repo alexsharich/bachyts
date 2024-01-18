@@ -1,0 +1,142 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Material+Icons+Outlined");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: #ffffff;
+    background-color: #14110E;
+    font: 500 16px/28px 'Urbanist',Arial,Helvetica, sans-serif ;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+    transition: .4s;
+}
+ul li,
+ol li {
+    list-style-type: none;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+button{
+    display: block;
+    border: none;
+    background-color: transparent;
+    color: inherit;
+    font: inherit;
+    transition: .4s;
+    cursor:pointer;
+}
+.btn-primary {
+    padding: 20px 36px;
+    font: 700 18px 'Inter',Arial,Helvetica, sans-serif ;
+    background-color: rgba(237, 29, 36, 1.00);
+    text-transform: uppercase;
+    text-align: center;
+}
+.btn-primary:hover {
+    background-color: rgb(184, 34, 39);
+}
+.container{
+max-width: 1340px;
+padding: 0 75px;
+margin: 0 auto;
+}
+.container-header{
+    padding: 0 10px;
+}
+/* HEADER */
+#header-section{
+    padding: 32px 0;
+    background-color: #1C1814;
+}
+.header,
+.nav-main__list,
+.nav-main,
+.header-action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-main{
+    flex-grow: 1;
+}
+.nav-main__list {
+    gap: 48px;
+    font: 400 18px 'Inter',Arial,Helvetica, sans-serif ;
+}
+.nav-main__link_selected{
+    color: #C99E71;
+    cursor: default;
+}
+.nav-main__link:hover,
+.header-action__search:hover,
+.header-action__cart:hover {
+    color: #C99E71;
+} 
+.header-action {
+    gap: 50px;
+    margin-left: 48px;
+}
+.header-action .header-action__search,
+.header-action .header-action__cart{
+   font-size: 30px;
+}
+
+/* Banner */
+#banner-section{
+    background:url(assets/img/rbb.jpg) 50% 0% /cover no-repeat;
+}
+.banner{
+    justify-content: space-between;
+    display: flex;
+    padding: 147px 0 158px;
+    
+}
+.banner-info{
+    max-width: 530px;
+}
+.banner__header{
+    font:  72px/94px 'Righteous', cursive ;
+}
+.banner__text{
+    font-size: 20px;
+    margin: 32px 0 64px;
+    line-height: 36px;
+    opacity: .8;
+    text-transform: capitalize;
+}
+.banner__btn{
+    padding: 24px 40px;
+}
+.banner-video__btn{
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    height: 110px;
+    align-self: flex-end;
+    text-transform: uppercase;
+    font: 400 16px 'Inter',Arial,Helvetica, sans-serif ;
+}
+.banner-video__btn::before{
+position: absolute;
+content:'';
+top: 0;
+left:50%;
+width: 65px;
+height: 65px;
+border: 1px solid white;
+border-radius: 50%;
+background:url('')50%/14px 18px no-repeat;/* TODO добавить треугольник в кнопку play */
+transform: translateX(-50%);
+}
+.banner-video__btn:hover{
+    color: #C99E71;
+}
+
