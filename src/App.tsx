@@ -25,7 +25,7 @@ function App() {
                 </li>
                 <li className="nav-main__item">
                   <a className="nav-main__link" href="#">
-                    About
+                    About Us
                   </a>
                 </li>
                 <li className="nav-main__item">
@@ -35,7 +35,7 @@ function App() {
                 </li>
                 <li className="nav-main__item">
                   <a className="nav-main__link" href="#">
-                    Reservation
+                    Sunglasses
                   </a>
                 </li>
               </ul>
@@ -48,17 +48,17 @@ function App() {
               <ul className="nav-main__list">
                 <li className="nav-main__item">
                   <a className="nav-main__link" href="#">
-                    Pages
+                    Brands
                   </a>
                 </li>
                 <li className="nav-main__item">
                   <a className="nav-main__link" href="#">
-                    Shop
+                    Accessories
                   </a>
                 </li>
                 <li className="nav-main__item">
                   <a className="nav-main__link" href="#">
-                    Contact
+                    Contacts
                   </a>
                 </li>
               </ul>
@@ -257,6 +257,130 @@ function App() {
             </ul>
           </div>
         </section>
+        <section id="testimonial-section" className="section-main">
+          <div className="container">
+            <h2 className="section-title">Customers</h2>
+            <h3 className="section-subtitle">Our Customers</h3>
+            <div className="testimonial-wrap">
+              <div className="testimonial">
+                <div className="testimonial-data">
+                  <img className="testimonial__img" src={IMG8} alt="testimonial" />
+                  <p className="testimonial__text section-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non libero modi at
+                    neque! Officiis asperiores saepe est adipisci quod ut!
+                  </p>
+                </div>
+                <div className="testimonial-info">
+                  <div className="testimonial-person">
+                    <span className="testimonial__name">Konstantin</span>
+                    <span className="testimonial__position">President {`:)`}</span>
+                  </div>
+                  <ul className="testimonial__list rating__list">
+                    <li className="rating__item material-icons-outlined">star</li>
+                    <li className="rating__item material-icons-outlined">star</li>
+                    <li className="rating__item material-icons-outlined">star</li>
+                    <li className="rating__item material-icons-outlined">star</li>
+                    <li className="rating__item material-icons-outlined">star_border</li>
+                  </ul>
+                </div>
+              </div>
+              <div className="testimonial">
+                <div className="testimonial-data">
+                  <img className="testimonial__img" src={IMG9} alt="testimonial" />
+                  <p className="testimonial__text section__text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non libero modi at
+                    neque! Officiis asperiores saepe est adipisci quod ut!
+                  </p>
+                </div>
+                <div className="testimonial-info">
+                  <div className="testimonial-person">
+                    <span className="testimonial__name">Konstantin</span>
+                    <span className="testimonial__position">President {`:)`}</span>
+                  </div>
+                  <ul className="testimonial__list rating__list">
+                    <li className="rating__item material-icons-outlined">star</li>
+                    <li className="rating__item material-icons-outlined">star</li>
+                    <li className="rating__item material-icons-outlined">star</li>
+                    <li className="rating__item material-icons-outlined">star</li>
+                    <li className="rating__item material-icons-outlined">star_border</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="contacts-section" className="section-main">
+          <div className="container">
+            <div className="contacts-wrap">
+              <div className="contacts-map">
+                <img className="contacts__img" src={IMG5} alt="Map" />
+              </div>
+              <div className="contacts__info">
+                <h2 className="contacts__title section-title">Contacts</h2>
+                <h3 className="contacts__subtitle section-subtitle">Our Store</h3>
+                <p className="contacts__text section-text">
+                  <div className="contacts__adress">
+                    <h3>Zamok Shopping Centre</h3>
+                    <h3>Pobediteley Ave., 65, 2-floor Minsk 220035 Belarus.</h3>
+                    <h3>
+                      Tel: <b>(+375) 29 366-81-95 A1</b>{' '}
+                    </h3>
+                    <h3>Daily 10am - 10pm</h3>
+                  </div>
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <footer id="footer-section" className="section-main">
+          <div className="container">
+            <div className="footer">
+              <img className="footer__img" src={Logo} alt="logo" />
+              <ul className="footer__list">
+                <li className="footer__item">
+                  <a className="footer__link" href="#">
+                    Home
+                  </a>
+                </li>
+                <li className="footer__item">
+                  <a className="footer__link" href="#">
+                    About Us
+                  </a>
+                </li>
+                <li className="footer__item">
+                  <a className="footer__link" href="#">
+                    Menu
+                  </a>
+                </li>
+                <li className="footer__item">
+                  <a className="footer__link" href="#">
+                    Sunglasses
+                  </a>
+                </li>
+                <li className="footer__item">
+                  <a className="footer__link" href="#">
+                    Brands
+                  </a>
+                </li>
+                <li className="footer__item">
+                  <a className="footer__link" href="#">
+                    Accessories
+                  </a>
+                </li>
+                <li className="footer__item">
+                  <a className="footer__link" href="#">
+                    Contacts
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="footer-copyright">
+            <div className="container">
+              <p className="footer-copyright__text">© БАЧЫЦЬ - 2015-2023, All rights reserved.</p>
+            </div>
+          </div>
+        </footer>
       </main>
     </div>
   );
