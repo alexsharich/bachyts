@@ -81,7 +81,6 @@ function App() {
                 </p>
                 <button className="banner__btn btn-primary">Bachyts</button>
               </div>
-              <button className="banner-video__btn">Play video</button>
             </div>
           </div>
         </section>
